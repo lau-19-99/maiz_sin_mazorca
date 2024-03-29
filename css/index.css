@@ -1,1 +1,47 @@
 @import url(shared.css);
+
+.titulo{
+    background-image: url("fondos/fondo-inicio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 908px;
+}
+
+.info, .mision-vision{
+    background-color: pink;
+    display: block;
+    justify-content: center;
+}
+
+.logo-info{
+   width: 400px;
+   height: 400px;
+   padding: 0;
+   margin-right: 100px;
+}
+.logo-info img{
+    width: 100%;
+    display: block;
+}
+
+.texto-info{
+    /* width: 433px; */
+    width: 400px;
+}
+
+.mision,
+.vision{
+    width: 400px;
+ }
+
+.mision{
+    margin-right: 100px;
+ }
+
+ .finalidad{
+    width: 60%;
+    height: 50px;
+    background-color: pink;
+    margin: 20px auto 0 auto;
+ }
