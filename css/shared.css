@@ -17,6 +17,10 @@ header .navbar{
     height: 116px;
 }
 
+a{
+    text-decoration: none;
+}
+
 #logo{
     width: 253px;
     margin-right: 74px;
@@ -87,7 +91,6 @@ footer li{
 
 footer a{
     color: var(--Blanco);
-    text-decoration: none;
 }
 
 .f-contacto{
