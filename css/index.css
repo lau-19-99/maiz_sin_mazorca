@@ -1,6 +1,16 @@
 @import url(shared.css);
 
-.titulo{
+:root {
+    --gris: rgba(0, 0, 0, .7);
+    --fondo: rgba(217, 217, 217, .5);
+    --Negro: rgb(0,0,0);
+}
+
+.row{
+    margin-right: 0 !important;
+}
+
+.titulo {
     background-image: url("fondos/fondo-inicio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,40 +18,158 @@
     height: 908px;
 }
 
-.info, .mision-vision{
+.cont-titulo {
+    width: 565px;
+    height: 246px;
+    margin-top: 12%;
+    margin-right: 25px;
+    background-color: var(--fondo);
+    /* backdrop-filter: blur(5px); */
+    padding: 25px 20px;
+}
+
+h4 {
+    color: var(--gris);
+}
+
+.btn-azul {
+    width: 108px;
+    height: 34px;
+    padding: 0;
+    margin-right: 15px;
+}
+
+
+
+/* .info, .mision-vision{
     background-color: pink;
     display: block;
     justify-content: center;
-}
+} */
 
-.logo-info{
+/* .logo-info{
    width: 400px;
    height: 400px;
    padding: 0;
    margin-right: 100px;
-}
-.logo-info img{
+} */
+/* .logo-info img{
     width: 100%;
     display: block;
-}
+} */
 
-.texto-info{
-    /* width: 433px; */
+/* .texto-info{
+   
     width: 400px;
-}
+} */
 
-.mision,
+/* .mision,
 .vision{
     width: 400px;
- }
+ } */
 
-.mision{
+/* .mision{
     margin-right: 100px;
- }
+ } */
 
- .finalidad{
+/* .finalidad{
     width: 60%;
     height: 50px;
     background-color: pink;
     margin: 20px auto 0 auto;
- }
+ } */
+
+
+/* .carousel-item {
+    background-color: pink;
+} */
+
+.proposito {
+    margin: 30px 0 !important;
+    text-align: center;
+}
+
+.slider {
+    width: 29px !important;
+    height: 29px !important;
+    margin: 0 15px !important;
+    border-radius: 60px !important;
+    -webkit-border-radius: 60px !important;
+    -moz-border-radius: 60px !important;
+    -ms-border-radius: 60px !important;
+    -o-border-radius: 60px !important;
+    background-color: var(--Azul) !important;
+}
+
+/* .carousel-item {
+    padding: 70px;
+} */
+
+.contenedor-prop{
+    /* background-color: orange; */
+    /* width: 60%; */
+    display: block;
+    margin: 100px auto;
+}
+
+.circulo {
+    background-color:  var(--Amarillo);
+    width: 206px;
+    height: 206px;
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
+    text-align: center !important;
+}
+.circulo h1{
+    display: block;
+    margin: 0 auto;
+    font-size: 4rem;
+    color: var(--Azul);
+}
+.texto-proposito{
+    width: 935px !important;
+    height: 206px !important;
+    font-size: 2rem;
+    background-color: var(--fondo);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mision-vision{
+    background-color: gray;
+}
+
+.mision-vision p{
+    font-size: 1.3rem;
+    height: 70% !;
+}
+
+.mision{
+    background-color: pink;
+    padding: 40px;
+    color: var(--Blanco);
+    background-color: var(--Azul);
+}
+
+.vision{
+    background-color: var(--Amarillo);
+    padding: 40px;
+}
+
+.finalidad h2{
+    text-align: center;
+}
+
+.lista{
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+}
+
+.lista li{
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}

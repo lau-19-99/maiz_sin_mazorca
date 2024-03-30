@@ -12,7 +12,7 @@
     font-family: var(--fuente1) !important;
 }
 
-.navbar{
+header .navbar{
     background-color: var(--Azul) !important;
     height: 116px;
 }
@@ -22,21 +22,107 @@
     margin-right: 74px;
 }
 
-.navbar-collapse a{
+header .navbar-collapse a{
     color: var(--Blanco) !important;
     font-size: 1.2rem;
 }
 
-.navbar li{
+header .navbar li{
     margin-right: 74px;
 }
 
-.navbar-collapse a:hover{
-    /* color: black;
-    background-color: gray; */
+header .navbar-collapse a:hover,
+.f-contacto a:hover{
     color: var(--Amarillo) !important;
 }
 
 .btn-amarillo{
     background-color: var(--Amarillo);
+    color: var(--Azul);
+    border: 2px solid var(--Amarillo);
+}
+
+.btn-amarillo:hover{
+    background-color: var(--Azul);
+    border: 2px solid var(--Amarillo);
+}
+
+.btn-azul{
+    background-color: var(--Azul);
+    color: var(--Blanco);
+    border: 2px solid var(--Azul);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.btn-azul:hover{
+    background-color: var(--Amarillo);
+    color: var(--Azul);
+    border: 2px solid var(--Azul);
+}
+
+footer{
+    background-color: var(--Azul);
+    color: var(--Blanco);
+    height: 300px;
+    padding-top: 20px;
+}
+
+#f-logo, #logo-veritas{
+    width: 108px;
+    margin-right: 15px;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer a{
+    color: var(--Blanco);
+    text-decoration: none;
+}
+
+.f-contacto{
+    text-align: center;
+    /* background-color: var(--Amarillo); */
+}
+
+footer .navegador{
+    background-color: var(--Azul) !important;
+    border: 2px solid var(--Amarillo);
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    width: 60%;
+    height: 50px;
+}
+
+footer .item{
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 0 15px;
+    height: 31px;
+    margin: 7px 8px 0 8px;
+}
+
+footer .item:hover{
+    background-color: var(--Amarillo);
+    color: var(--Azul) !important;
+}
+
+footer .item a:hover{
+    color: var(--Azul) !important;
 }
