@@ -129,3 +129,7 @@ footer .item:hover{
 footer .item a:hover{
     color: var(--Azul) !important;
 }
+
+.row{
+    margin-right: 0 !important;
+}

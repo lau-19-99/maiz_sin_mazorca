@@ -1,0 +1,67 @@
+@import url(shared.css);
+
+.titulo{
+    background-image: url("fondos/fonfo-directorio.jpg");
+    /* background-repeat: no-repeat; */
+    height: 437px;
+    flex-direction: column-reverse;
+}
+
+.titulo h1{
+    margin-right: 25px;
+    font-size: 5rem;
+}
+
+.separador{
+    /* width: 90%; */
+    height: 3px;
+    background-color: var(--Azul);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: auto;
+}
+
+.concepto1{
+    background-color: var(--Azul);
+    color: var(--Blanco);
+    height: 333px;
+    width: 50%;
+    border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+}
+
+.concepto2{
+    width: 40%;
+}
+
+.central{
+    /* width: 60%; */
+    height: 52px;
+    background-color: var(--Amarillo);
+    color: var(--Azul);
+    margin: auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;   
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.btn-azul{
+    width: 10%;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.categoria{
+    background-color: var(--Amarillo);
+    width: 222px;
+    color: var(--Azul);
+}
+

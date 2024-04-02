@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maíz sin Mazorca</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/directorio.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="informacion.html">Información</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="directorio.html">Directorio de ayuda social</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="denuncia.html">Denuncia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conapam.html">CONAPAM</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-amarillo"><img src="img/icono-discapacidad.png" alt="Icono"></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="titulo d-flex align-items-end">
+            <h1>Directorio</h1>
+        </div>
+        <div class="row">
+            <h6 class="text-center">Hogares, Centros Diurnos y municipalidades</h6>
+        </div>
+        <div class="row">
+            <h2 class="text-center">Organizaciones de Bienestar Social</h2>
+        </div>
+        <div class="separador"></div>
+        <div class="row">
+            <div>
+                <h2>¿Qué son?</h2>
+            </div>
+            <div class="contenedor d-flex justify-content-between">
+                <div class="concepto1 d-flex align-items-center">
+                    Son organizaciones que atienden a personas adultas mayores son entidades privadas, que operan bajo
+                    la autorización del Ministerio de Salud y la municipalidad respectiva del país.
+                </div>
+                <div class="concepto2 d-flex align-items-center">
+                    <ul>
+                        <li>Algunas de estas organizaciones buscan certificarse con el IMAS como Organizaciones de
+                            Bienestar Social (OBS). </li>
+                        <li>Estas Organizaciones pueden recibir fondos públicos del CONAPAM para subsidiar la atención
+                            de personas mayores en situación de pobreza y pobreza extrema, tras cumplir con los
+                            requisitos y establecer un convenio con la institución.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <h3 class="text-center">Para conocer más sobre estas organizaciones, explore el listado de las que tienen
+                convenio con el CONAPAM:</h3>
+        </div>
+
+        <div class="central d-flex align-items-center justify-content-center">
+            <h4>Por favor, seleccione la ubicación para ver los servicios disponibles y el tipo de servicio (hogar,
+                centro diurno)</h4>
+        </div>
+
+        <div class="row central-btn d-flex justify-content-between">
+            <button class="btn btn-azul">San José</button>
+            <button class="btn btn-azul">Cartago</button>
+            <button class="btn btn-azul">Heredia</button>
+            <button class="btn btn-azul">Alajuela</button>
+            <button class="btn btn-azul">Puntarenas</button>
+            <button class="btn btn-azul">Limón</button>
+            <button class="btn btn-azul">Guanacaste</button>
+        </div>
+
+        <div class="categoria">
+            <h2>Categoría</h2>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Fundaciones
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <!-- cuerpo -->
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Entidad</th>
+                                    <th scope="col">Teléfono</th>
+                                    <th scope="col">Correo</th>
+                                    <th scope="col">Cantón</th>
+                                    <th scope="col">Distrito</th>
+                                    <th scope="col">Dirección</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Fundación Génesis para el Desarrollo de Personas en Riesgo Social
+                                    </th>
+                                    <td>2252-1243 / 4080-0905</td>
+                                    <td>info@fgenesis.org</td>
+                                    <td>Alajuelita</td>
+                                    <td>San Jocesito</td>
+                                    <td>San Jocesito del supermercado Acapulco 250 oeste</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Fundación Hogar de Ancianos de Piedades de Santa Ana</th>
+                                    <td>2282-4740</td>
+                                    <td>hapsa76@yahoo.com</td>
+                                    <td>Santa Ana</td>
+                                    <td>Piedades</td>
+                                    <td>Costado Sur Este del Templo Católico de Piedades</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Hogares
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Entidad</th>
+                                    <th scope="col">Teléfono</th>
+                                    <th scope="col">Correo</th>
+                                    <th scope="col">Cantón</th>
+                                    <th scope="col">Distrito</th>
+                                    <th scope="col">Dirección</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Asociación Doteña de Protección al Anciano</th>
+                                    <td>2241-1054</td>
+                                    <td>asocdotena@gmail.com</td>
+                                    <td>Dota</td>
+                                    <td>Santa María</td>
+                                    <td>250 m Suroeste del Parque</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Asociación Vicentina de Escazú</th>
+                                    <td>2289-6040 /2588-2558</td>
+                                    <td>hogarvicentinaescazu@gmail.com</td>
+                                    <td>Escazú</td>
+                                    <td>San antonio</td>
+                                    <td>Barrio Santa Tereza Escazú. Contiguo al salón comunal</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Asociación Moraviana</th>
+                                    <td>2297-3268</td>
+                                    <td>coordinacioncasanazareth@gmail.com</td>
+                                    <td>Moravia</td>
+                                    <td>San Vicente</td>
+                                    <td>Moravia, Bº Corazón de Jesús, 400 m al norte del banco nacional de moravia y 500
+                                        oeste. Contiguo a la iglesia Corazon de Jesús</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Asociación Hogar de Ancianos los Santos</th>
+                                    <td>2546-6136</td>
+                                    <td>info.hogarlossantos@gmail.com</td>
+                                    <td>Tarrazú</td>
+                                    <td>San Marcos</td>
+                                    <td>San Marcos de Tarrazú Bº Santa Cecilia 150 sur, esc.coopesantos 50 Oeste</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Centros Diurnos
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Entidad</th>
+                                    <th scope="col">Teléfono</th>
+                                    <th scope="col">Correo</th>
+                                    <th scope="col">Cantón</th>
+                                    <th scope="col">Distrito</th>
+                                    <th scope="col">Dirección</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Asociación Pro-bienestar del Anciano en Hatillo</th>
+                                    <td>2254-7366</td>
+                                    <td>info@fgenesis.org</td>
+                                    <td>Central</td>
+                                    <td>Hatillo</td>
+                                    <td>Hatillo 3, de la Taqueria Costa Rica 200 metros oeste, edificio esquinero de dos
+                                        niveles, avenida 40, calle 54</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Asociación Pro Centro Diurno de Ancianos Hatillo San Sebastián</th>
+                                    <td>2254-3795 / 2252-8068</td>
+                                    <td>centrodhss@hotmail.com</td>
+                                    <td>Central</td>
+                                    <td>San Sebastian</td>
+                                    <td>Costado Sur Este del Templo Católico de Piedades</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Asociación San Vicente de Paul de Ciudad Colón</th>
+                                    <td>2249-1751</td>
+                                    <td>asovicentedepaul@yahoo.com</td>
+                                    <td>Mora</td>
+                                    <td>Colón</td>
+                                    <td>25 Mtrs S de la Colonia del Prado, Brasil de Mora, Frente semáforo peatonal</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="d-flex align-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 f-info">
+                    <h3>Maíz sin Mazorca</h3>
+                    <p>Se enfoca en abordar el creciente problema del abandono del adulto mayor en Costa Rica con hechos
+                        verídicos.</p>
+                </div>
+                <div class="col-md-4 f-contacto">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/laura-carvajal-245722290/">LinkedIn</a>
+                        </li>
+                        <li><a target="_blank" href="lauraestefaniacm@hotmail.com">Correo</a></li>
+                        <li><a target="_blank" href="https://www.behance.net/laucarvajal">Behance</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 f-autor">
+                    <h3>Proyecto</h3>
+                    <p>Universidad LCI Veritas Costa Rica, Diseño Publicitario VI, creado por Laura Carvajal Mayorga.
+                    </p>
+                    <img id="f-logo" src="img/logo.png" alt="Logo Maiz sin Mazorca">
+                    <img id="logo-veritas" src="img/veritas-logo.png" alt="Logo de Universidad LCI Veritas Costa Ricas">
+                </div>
+
+                <div class="col-md-12 f-nav d-flex justify-content-center mt-4">
+                    <nav class="navegador d-flex justify-content-between">
+                        <div class="item d-flex align-items-center">
+                            <a href="index.html">Inicio</a>
+                        </div>
+                        <div class="item d-flex align-items-center">
+                            <a href="informacion.html">Información</a>
+                        </div>
+                        <div class="item d-flex align-items-center">
+                            <a href="directorio.html">Directorio de ayuda social</a>
+                        </div>
+                        <div class="item d-flex align-items-center">
+                            <a href="denuncia.html">Denuncia</a>
+                        </div>
+                        <div class="item d-flex align-items-center">
+                            <a href="conapam.html">CONAPAM</a>
+                        </div>
+                    </nav>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5d260e42e6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
