@@ -8,7 +8,7 @@
 
 
 .titulo {
-    background-image: url("fondos/fondo-inicio.jpg");
+    background-image: linear-gradient(rgba(255, 191, 64, .3),rgba(255, 191, 64, .15)),url("fondos/fondo-inicio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,7 +21,6 @@
     margin-top: 12%;
     margin-right: 25px;
     background-color: var(--fondo);
-    /* backdrop-filter: blur(5px); */
     padding: 25px 20px;
 }
 
@@ -98,10 +97,6 @@ h4 {
     background-color: var(--Azul) !important;
 }
 
-/* .carousel-item {
-    padding: 70px;
-} */
-
 .contenedor-prop{
     /* background-color: orange; */
     /* width: 60%; */
@@ -128,32 +123,39 @@ h4 {
 }
 .texto-proposito{
     width: 935px !important;
-    height: 206px !important;
+    min-height: 206px !important;
     font-size: 2rem;
     background-color: var(--fondo);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    
 }
 
 .mision-vision{
     background-color: gray;
+    height: 340px;
+}
+.mision-vision div{
+    height: 100%;
 }
 
 .mision-vision p{
     font-size: 1.3rem;
-    height: 70% !;
 }
 
 .mision{
-    background-color: pink;
-    padding: 40px;
+    padding: 0 73px;
     color: var(--Blanco);
     background-color: var(--Azul);
+    display: grid;
+    align-items: center;
 }
 
 .vision{
     background-color: var(--Amarillo);
-    padding: 40px;
+    padding: 0 73px;
+    display: grid;
+    align-items: center;
 }
 
 .finalidad h2{
@@ -161,12 +163,10 @@ h4 {
 }
 
 .lista{
-    width: 50%;
-    display: block;
-    margin: 40px auto;
+    margin: 40px 60px;
 }
 
 .lista li{
   margin-bottom: 15px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
