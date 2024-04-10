@@ -1,7 +1,7 @@
 @import url(shared.css);
 
 .titulo{
-    background-image: url("fondos/fonfo-directorio.jpg");
+    background-image: linear-gradient(rgba(255, 191, 64, .3),rgba(255, 191, 64, .15)),url("fondos/fonfo-directorio.jpg");
     /* background-repeat: no-repeat; */
     height: 437px;
     flex-direction: column-reverse;
@@ -11,11 +11,22 @@
     margin-right: 25px;
     font-size: 5rem;
 }
-
+h6{
+    background-color: var(--Amarillo);
+    width: 25% !important;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 7px;
+}
 .separador{
     /* width: 90%; */
-    height: 3px;
-    background-color: var(--Azul);
+    height: 10px;
+    background-color: var(--Amarillo);
     border-radius: 15px;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -53,7 +64,7 @@
 .central{
     width: 95%;
     height: 52px;
-    background-color: var(--Amarillo);
+    /* background-color: var(--Amarillo); */
     color: var(--Azul);
     margin: auto;
     border-radius: 25px;
@@ -78,10 +89,21 @@
 }
 
 .categoria{
-    background-color: var(--Amarillo);
+    /* background-color: var(--Amarillo); */
     width: 222px;
     color: var(--Azul);
 }
+
+.sub{
+    height: 10px;
+    background-color: var(--Amarillo);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
 .row,
 .separador,
 .central,
@@ -102,6 +124,21 @@
     background-color: var(--Azul) !important;
     color: var(--Blanco) !important;
     border: 4px solid var(--Amarillo);
+  }
+
+  table a{
+    color: var(--Azul);
+  }
+
+  table a:hover{
+    color: var(--Amarillo);
+    text-decoration: 1px underline var(--Amarillo);
+  }
+
+  .activo{
+    background-color: var(--Amarillo);
+    color: var(--Azul);
+    border: 2px solid var(--Azul);
   }
 
 /* PENDIENTE QUITAR */
