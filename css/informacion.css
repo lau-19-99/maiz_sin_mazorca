@@ -25,7 +25,6 @@
 }
 
 .info{
-    /* background-color: blue; */
     width: 60%;
     padding: 0 !important;
     flex-direction: column;
@@ -37,14 +36,15 @@
     width: 100%;
     border-top-left-radius: 1000px;
     border-bottom-left-radius: 1000px;
-    /* padding-left: 10%; */
     text-align: center;
 }
 
 .info2{
     margin-top: 40px ;
+    margin-left: 80px;
+    width: 700px;
     /* Temporal */
-    background-color: var(--Amarillo);;
+     /* background-color: blue;  */
 }
 
 
@@ -59,32 +59,45 @@
     color: var(--Amarillo);
 } */
 .info h5{
-    font-size: 22px;
-    margin-left: 150px;
-    margin-right: 75px;
+    font-size: 25px;
+    /* margin-left: 150px;
+    margin-right: 75px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-/* .razon{
-    background-color: blueviolet;
-} */
+.info img{
+    width: 55px;
+    height: 55px;
+}
 
+.comillas1, .comillas2{
+    /* background-color: blueviolet; */
+    height: 100%;
+}
+.comillas2 img{
+    margin-right: 25px;
+}
+
+.razon{
+   padding-right: 50px; 
+}
 .razon h1,
 .razon p{
     margin-left: 75px;
-    width: 70%;
 }
 .razon p{
+    margin-top: 35px;
     font-size: 30px;
 }
 
 .m-logo{
-    /* background-color: aqua; */
     padding: 0 !important;
 }
 
 .m-logo img{
-    width: 55%;
-    margin-right: 75px;
+    width: 100%;
+    /* margin-right: 75px; */
 }
 
 h1{
@@ -110,4 +123,20 @@ h1{
     width: 30%;
     display: block;
     margin: auto;
+}
+
+.separador{
+    height: 6px;
+    background-color: var(--Amarillo);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 0 75px 25px 75px;
+}
+
+.contenedor4{
+    margin: 0 75px 35px 75px;
+    padding: 10px;
 }
