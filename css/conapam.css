@@ -1,1 +1,81 @@
 @import url(shared.css);
+
+.conapam{
+    margin: 100px 100px 100px 100px;
+    /* background-color: rebeccapurple; */
+}
+
+.conapam div{
+    /* background-color: yellow; */
+    margin: 18px 0 0 100px ;
+    width: 40%;
+}
+
+.t-fines{
+    background-color: var(--Amarillo);
+    border-top-right-radius: 500px;
+    width: 25%;
+    margin-bottom: 40px;
+}
+
+.t-fines h2{
+   margin-left: 100px;
+   margin-top: 5px;
+}
+
+.fines ul,
+.funciones ul{
+    margin-left: 88px;
+    font-size: 25px;
+}
+ul li::marker {
+    color: var(--Amarillo);
+}
+
+li{
+    margin-top: 10px;
+}
+
+.t-funciones{
+    background-color: var(--Amarillo);
+    border-top-left-radius: 500px;
+    width: 25%;
+    margin-bottom: 40px;
+}
+
+.end{
+    padding: 0;
+}
+.t-funciones h2{
+    margin-right: 100px;
+    margin-top: 5px;
+ }
+
+ .margin{
+    margin-bottom: 70px !important;
+ }
+
+ .enlace{
+    background-color: var(--Azul);
+    margin: 100px 180px 100px 180px;
+    color: var(--Blanco);
+    text-align: center;
+    padding: 25px;
+    display: grid;
+    place-content: center;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    font-size: 30px;
+}
+
+.enlace a{
+    color: var(--Blanco);
+}
+
+.enlace a:hover{
+    text-decoration: underline;
+    color: var(--Amarillo);
+}
