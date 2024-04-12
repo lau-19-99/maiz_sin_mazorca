@@ -1,1 +1,110 @@
 @import url(shared.css);
+
+:root{
+    --gris: rgba(0, 0, 0, .7);
+    --fondo: rgba(217, 217, 217, .5);
+    --Negro: rgb(0,0,0);
+}
+.titulo {
+    background-image: linear-gradient(rgba(255, 191, 64, .3),rgba(255, 191, 64, .15)),url("fondos/fondo-denuncia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 908px;
+}
+
+.cont-titulo {
+    width: 565px;
+    height: 246px;
+    margin-top: 12%;
+    margin-right: 25px;
+    background-color: var(--fondo);
+    padding: 25px 20px;
+    display: grid;
+    place-content: center;
+}
+
+.cont-titulo h1{
+    font-size: 64px;
+}
+
+.cont-titulo h4 {
+    color: var(--gris);
+    font-size: 32px;
+}
+
+.contenedor{
+    background-color: var(--Amarillo);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    margin: 80px 100px 50px 100px;
+}
+
+.separador{
+    background-color: var(--Negro);
+    width: 7px;
+    height: 350px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 30px 75px;
+}
+
+.contenedor p{
+    width: 30%;
+    font-size: 28px;
+}
+
+.contenedor h1{
+    font-size: 96px;
+}
+
+.contenedor2{
+    margin: 120px 100px 100px 100px;
+}
+
+.contenedor2 img{
+    width: 40%;
+}
+
+.contenedor2 h2{
+    width: 40%;
+}
+
+.sanciones{
+    margin: 80px 100px 80px 100px;
+}
+
+.sanciones h1{
+    font-size: 45px;
+}
+
+.separador2{
+    height: 10px;
+    background-color: var(--Amarillo);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin: 15px 75px 30px 75px;
+}
+
+ol{
+    /* background-color: bisque; */
+    width: 70%;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+
+ol li::marker {
+    color: var(--Amarillo);
+    font-weight: bold;
+    font-size: 35px;
+}
