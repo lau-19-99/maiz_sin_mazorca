@@ -10,7 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 908px;
+    height: 630px;
 }
 
 .cont-titulo {
@@ -107,4 +107,15 @@ ol li::marker {
     color: var(--Amarillo);
     font-weight: bold;
     font-size: 35px;
+}
+
+.advertencia{
+    text-align: center;
+    color: var(--gris);
+    font-size: 24px;
+    margin: 80px 100px 80px 100px;
+    font-weight: bold;
+}
+.advertencia span{
+    color: var(--Amarillo);
 }
